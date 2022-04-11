@@ -1,0 +1,258 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+
+// font awesome
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
+@import "@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "@fortawesome/fontawesome-free/scss/solid.scss";
+@import "@fortawesome/fontawesome-free/scss/regular.scss";
+@import "@fortawesome/fontawesome-free/scss/brands.scss";
+
+// Variables
+@import "variables";
+@import "media";
+@import "transitions";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+
+
+
+.flex_1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex_2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flex_3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex_4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mainBox {
+    padding-top: 70px;
+    background: rgba(86, 93, 112, 0.383);
+    overflow: hidden;
+}
+
+.tWineBox {
+    padding: 20px;
+}
+
+.splash-box {
+    width: 100vw;
+    height: 100vh;
+    @extend .flex_4;
+
+    .splash-box-progress {
+        margin-bottom: 100px;
+    }
+}
+
+.errorColor {
+    color: $main_color;
+}
+
+// navbar
+
+.my-navbar {
+    z-index: 9999;
+    transition: 1s;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    padding: 5px;
+    height: 70px;
+    background: $nav-background;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.75);
+
+    .nav-children {
+        margin: 0px 40px;
+        cursor: pointer;
+
+        &:hover {
+            transform: translateY(-3px);
+            text-decoration: overline;
+        }
+    }
+
+    .active {
+        text-decoration: line-through !important;
+    }
+}
+
+.my-navbar-hidden {
+    transition: 1s;
+    background: rgba(104, 118, 144, 0.877);
+    // top: -20px;
+
+}
+
+.nav-dx-menu {
+    width: 30%;
+    cursor: pointer;
+
+    i {
+        font-size: 30px;
+    }
+}
+
+.mobile-menu {
+    display: none;
+    width: 80vw;
+    height: 250px;
+    position: absolute;
+    top: 100px;
+    left: -2000px;
+    transition: 2s;
+    background: rgba(98, 111, 126, 0.938);
+    opacity: 0;
+
+}
+
+.mobile-menu-show {
+    opacity: 1;
+    left: 50px;
+    transition: .6s;
+    display: inherit;
+    padding: 30px 10px;
+}
+
+.nav-children-mobile {
+    margin: 50px;
+    cursor: pointer;
+
+    &:hover {
+        transform: translateY(-3px);
+        text-decoration: overline;
+    }
+
+    .active {
+        text-decoration: line-through !important;
+    }
+}
+
+.routerLinkProjBtn {
+    width: 200px;
+}
+
+#routerInsideVButtonDisabled {
+    color: grey !important;
+}
+
+.projBtnBox {
+    .projBtn {
+        font-size: 20px !important;
+        color: rgb(190, 190, 190) !important;
+        transition: 1s !important;
+    }
+
+    @extend .flex_4;
+    margin-top: 40px !important;
+    width: 200px !important;
+    height: 50px !important;
+    border-radius: 10px !important;
+    background: rgb(57, 57, 77) !important;
+    padding: 10px !important;
+    transition: 1s !important;
+
+    &:hover {
+        transition: 1s;
+        color: rgb(45, 55, 73) !important;
+        background: rgb(103, 123, 179) !important;
+    }
+}
+
+.singleProjectBtn {
+    margin: 0px !important;
+}
+
+.containerFormAuth {
+    height: 80vh;
+
+    .formAuth {
+        margin: 50px;
+    }
+}
+
+// vuetify overrides
+.v-application {
+    font-family: $font-family-sans-serif !important;
+
+    // .v-snack {
+    //     top: 90vh !important
+    // }
+    .v-data-table__mobile-row__cell {
+        .myImageList {
+            width: 100px !important;
+        }
+    }
+
+
+    .v-btn {
+        // border-radius: 0px!important;
+    }
+
+    #savv {
+        border-radius: $btn-border;
+    }
+
+    h1 {
+        color: black !important;
+    }
+
+    a {
+        color: $my-link-color !important;
+    }
+
+    .langVSelect>* {
+        width: 55px !important;
+        color: black !important;
+    }
+
+    .langVSelectMobile {
+        width: 55px !important;
+        color: black !important;
+    }
+
+    .v-progress-linear {
+        width: 60% !important;
+        margin-left: 30px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+
+    }
+}
+
+// bootstrap overrides 
+input,
+button,
+a {
+    &:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+
+}

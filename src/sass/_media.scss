@@ -1,0 +1,481 @@
+// Ultra Extra small devices (portrait phones, less than 450px)
+@media (max-width: 450px) {
+    .filters {
+        height: 160px !important;
+        flex-direction: column !important;
+        padding: 20px !important;
+    }
+
+
+    #backToHome {
+        display: none !important;
+    }
+
+
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) {
+    .projectsGallery {
+        padding: 10px !important
+    }
+
+    .footer {
+        font-size: 10px;
+    }
+
+    #skills {
+        height: 880px !important;
+    }
+
+    .nav-children {
+        font-size: 11px !important;
+    }
+
+    .nav-children-mobile {
+        font-size: 18px !important;
+        font-weight: bold !important;
+    }
+
+    .mobile-menu-show {
+        left: 0px !important;
+    }
+
+    .mobile-menu-show {
+        width: 100vw !important;
+    }
+
+    .projectsChip {
+        width: 100px !important;
+    }
+
+    .dxBoxNavbar {
+        flex-direction: column;
+    }
+
+    .my-navbar {
+        height: 110px !important;
+    }
+
+    .mobile-menu {
+
+        top: 110px !important;
+    }
+
+    .editMediaBox {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .mainBox {
+        padding-top: 110px !important;
+    }
+
+    .tHomeHeader {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+
+
+    .searchBarWine {
+        width: 80vw !important;
+    }
+
+    .containerFormAuth {
+        height: 120vh !important;
+    }
+
+    .creditCardContainer {
+        width: 100% !important;
+    }
+
+    .paymentBox {
+        width: 95% !important;
+        padding: 0px !important;
+    }
+
+    .eventHomeText {
+        font-size: 12px !important;
+        margin: 5px !important;
+    }
+
+
+
+
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    .filtersBox {
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: column !important;
+
+    }
+
+
+
+    .sortBtns {
+        flex-direction: row !important;
+        width: 100% !important;
+
+        .sortBtn {
+            margin: 5px !important;
+        }
+    }
+
+    .skillBox {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-children-dx {
+        display: none;
+    }
+
+    .logoImg {
+        width: 150px;
+    }
+
+    .v-application {
+        .langVSelect {
+            display: none;
+        }
+    }
+
+    #about {
+        height: auto !important;
+    }
+
+    .boxPortfolio {
+        h1 {
+            font-size: 20px;
+        }
+    }
+
+    .box-sx {
+        position: relative !important;
+        z-index: 9900 !important;
+
+    }
+
+    .trianglesBox {
+        // display: none;
+        width: 100px !important;
+        z-index: 9000 !important;
+        position: absolute !important;
+        top: 0 !important;
+        right: 300px !important;
+    }
+
+    .projectImage2 {
+        width: 90% !important;
+
+    }
+
+    .projectsGallery {
+        h1 {
+            font-size: 20px !important;
+        }
+
+        h2 {
+            font-size: 10px !important;
+        }
+
+        h3 {
+            font-size: 10px !important;
+        }
+
+        h4 {
+            font-size: 8px !important;
+        }
+
+        h5 {
+            font-size: 7px !important;
+        }
+
+        .projDescription {
+            font-size: 12px !important;
+
+        }
+
+        .projType {
+            font-size: 10px !important;
+
+        }
+    }
+
+    .eFiltersTop {
+        flex-direction: column;
+    }
+
+    .sorterBox {
+        margin-top: 10px !important;
+    }
+
+    .eFiltersLateral {
+        width: 40% !important;
+        padding: 10px !important;
+    }
+
+    .eProducts {
+        width: 60% !important;
+    }
+
+    .eProduct {
+        width: 43% !important;
+        margin: 5px !important;
+        padding: 5px !important;
+    }
+
+    .sorterBtn {
+        margin: 0 3px !important;
+        width: 75px !important;
+        font-size: 10px !important;
+        padding: 2px !important;
+    }
+}
+
+@media (max-width: 800px) {
+    .basket {
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .checkoutBox {
+        position: inherit !important;
+        width: 80% !important;
+    }
+
+    .basketLeft {
+        .prodName {
+            font-size: 20px !important;
+        }
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    .my-navbar {
+        .nav-children {
+            margin: 0px 5px !important;
+        }
+    }
+
+    .homeBtn {
+        font-size: 12px !important;
+    }
+
+    .projectsGallery {
+        .projectCard {
+
+            height: auto !important;
+            flex-direction: column !important;
+
+            .projCardDx {
+                height: auto !important;
+                flex-direction: column !important;
+                text-align: center;
+
+                .projCardDxDx {
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column !important;
+
+                }
+            }
+        }
+    }
+
+    .projectsGallery {
+        .projectImage {
+            margin: 20px 10px !important;
+            width: 50% !important;
+        }
+
+        .projectTitle {
+
+            width: 80% !important;
+        }
+    }
+
+    .boxPortfolio {
+        h1 {
+            font-size: 32px !important;
+        }
+
+        h2 {
+            font-size: 22px !important;
+        }
+
+        h3 {
+            font-size: 22px !important;
+        }
+
+        h4 {
+            font-size: 18px !important;
+        }
+
+        h5 {
+            font-size: 16px !important;
+        }
+
+    }
+
+    #home,
+    #projects,
+    #about,
+    #skills,
+    #contact {
+        padding: 30px 15px !important;
+        align-items: center !important;
+
+        .box-sx {
+            width: 100%;
+        }
+    }
+
+    #home,
+    #projects,
+    #about {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    #home {
+        height: 330px !important;
+    }
+
+
+
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {}
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
+
+// ----------
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .nav-dx-menu {
+        i {
+            display: none;
+        }
+    }
+
+    .logoImg {
+        width: 250px;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
+    .nav-children-mobile {
+        display: none;
+    }
+
+    .v-application {
+        .langVSelectMobile {
+            display: none;
+        }
+    }
+
+
+
+    .my-navbar {
+        .nav-children {
+            margin: 0px 15px !important;
+        }
+    }
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
+
+// ----------
+// Ultra Small devices (small phones, 320px and up)
+
+@media (min-width: 320px) and (max-width: 450px) {}
+
+@media (min-width: 450px) and (max-width: 576px) {
+    .filters {
+        height: 120px !important;
+        flex-direction: column !important;
+
+    }
+
+
+}
+
+@media (min-width: 200px) and (max-width: 576px) {
+    .homeBtn {
+        font-size: 18px !important;
+    }
+
+
+    .eFiltersLateral {
+        width: 200px !important;
+        position: fixed !important;
+        top: 110px;
+        left: -200px;
+        height: 100vh !important;
+        z-index: 9999 !important;
+        background: rgba(115, 120, 126, 0.89) !important;
+        transition: 1s;
+
+    }
+
+    .eFiltersLateralShow {
+        left: 0px;
+        transition: 1s;
+    }
+
+    .eFiltersLateralArrow {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .eProducts {
+        width: 100% !important;
+    }
+
+    .eProduct {
+        width: 90% !important;
+        margin: 5px !important;
+        padding: 5px !important;
+    }
+}
+
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}

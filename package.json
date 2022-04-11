@@ -1,0 +1,79 @@
+{
+  "name": "test-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap": "^4.0.0",
+    "core-js": "^3.6.5",
+    "cross-env": "^7.0",
+    "firebase": "^8.0.2",
+    "firebase-tools": "^8.16.2",
+    "jquery": "^3.2",
+    "laravel-mix": "^5.0.1",
+    "lodash": "^4.17.13",
+    "popper.js": "^1.12",
+    "register-service-worker": "^1.7.1",
+    "resolve-url-loader": "^2.3.2",
+    "sass": "^1.20.1",
+    "sass-loader": "^8.0.0",
+    "vue": "^2.6.11",
+    "vue-axios": "^3.2.0",
+    "vue-faker": "^3.0.0",
+    "vue-mapbox-geocoder": "^0.2.0",
+    "vue-moment": "^4.1.0",
+    "vue-template-compiler": "^2.6.10",
+    "vuefire": "^2.2.4"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "@mapbox/mapbox-gl-geocoder": "^4.7.0",
+    "@mdi/font": "^5.8.55",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-pwa": "^4.5.9",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "html-webpack-plugin": "^4.5.0",
+    "mapbox-gl": "^1.12.0",
+    "moment": "^2.29.1",
+    "prerender-spa-plugin": "^3.4.0",
+    "vue-i18n": "^8.22.1",
+    "vue-in-viewport-directive": "^2.0.2",
+    "vue-mapbox": "^0.4.1",
+    "vue-meta": "^2.4.0",
+    "vue-router": "^3.3.4",
+    "vue-template-compiler": "^2.6.11",
+    "vue-video-player": "^5.0.2",
+    "vuetify": "^2.3.15",
+    "vuex": "^3.5.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "no-unused-vars": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
