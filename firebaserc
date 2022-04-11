@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "test",
+    "dev": "test",
+    "production": "test-aba7e"
+  }
+}
